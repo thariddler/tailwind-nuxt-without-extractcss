@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-nuxt-without-extractcss",
+  "version": "1.0.0",
+  "description": "My fantabulous Nuxt.js project",
+  "author": "rddlr",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "tailwindcss": "^0.6.6"
+  }
+}
